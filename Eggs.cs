@@ -21,7 +21,7 @@ namespace StringAssignment
             string ans = "Your number of eggs is ";
             if (gross > 0) ans += gross + " gross ";
             if (dozen > 0) ans += dozen + " dozen ";
-            if (left > 0) ans += "and" + left;
+            if (left > 0) ans += "and " + left;
             Console.WriteLine(ans);
         }
     }

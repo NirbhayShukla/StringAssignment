@@ -32,11 +32,11 @@ namespace StringAssignment
             string path = Console.ReadLine();
             string newpath = @"Webapps/MyApp/Images/" + path;
             Console.WriteLine(newpath);
-            string poem = "I wandered lonely as a cloud" + (char)10+
-                "That floats high over vales or hills" + (char)10+
-                "When all at once I saw a crowd" + (char)10+
-                "A host, a garden of daffodils; Besides the lake, beneath the trees" + (char)10 +
-                "Fluttering and dancing in the breeze";
+            const string poem = @"I wandered lonely as a cloud" + 
+                @"That floats high over vales or hills" + 
+                @"When all at once I saw a crowd" + 
+                @"A host, a garden of daffodils; Besides the lake, beneath the trees" +
+@"Fluttering and dancing in the breeze";
             Console.WriteLine(poem);
 
         }
